@@ -1,1 +1,40 @@
+Tinder Bot that swipes automticlly to the right for busy and geeks that don't get enough time to swipe themselves.
 
+User Actions:
+1) Click "Login with Facebook"
+2) Fill out "Email"
+3) Fill out "Password"
+4) Click "Login"
+5) Detect annoying popups and map them to continue.
+
+Mapping them to Bot Actions:
+1) Select Login Button = Click
+2) Select Email Box = Type
+3) Select Password Box = Type
+4) Select Log in Button = Click
+
+
+This is built by using:
+1)Python
+2)Selenium
+3)Web Driver: Chrome Driver from Google Chrome
+
+What to do before:-
+1) Have the latest update of Google Chrome Browser
+2) Install selenium for python. Type the following command if you don't have it installed already
+   "pip install selenium"
+3) Install the latest chrome driver (I would prefer beta over stable version though). Download from this
+   link [http://chromedriver.chromium.org]
+4) There is a separate file called "facebook_credentials". Open the file, and enter your facebook user id and password and then save it.
+
+
+How to run the bot:-
+1) Open the "tinderbot" in the command prompt and run it.
+2) Incase, anyone forgot how to run python files in command prompt, type this after going to the respective directory of this files
+   "python -i tinderbot.py"
+   
+I have also added a video demo of how the tinderbot actually works.
+
+
+Credits:
+Aaron Jack for providing tutorials with how to build bots like this using python and selenium.
